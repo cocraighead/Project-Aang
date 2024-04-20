@@ -1,0 +1,36 @@
+Project AANG: Avatar The Last Airbender Graphics built in OpenGL
+
+Colin Craighead and Steven Priddy
+CSCI 4229 Fall 2020
+
+
+Project AANG consists of three major locations based on images from the Avatar The Last Airbender show; these images can be seen in the 'Images' folder. A map is displayed to the user and the user can use their mouse to navigate through the map. These scenes focus on an interesting castle, cliff temples, and an earth kingdom city all built up of many simple and advance objects.
+
+
+To run: utilize the given makefile to make the main executables. 'final' is the main executable for the project to run
+
+
+Key bindings
+  m          open and closes the map
+  LeftClick  While hovering over a city name on the map, opens the main view of the respective scene
+  1          3rd person perspective view of scene
+  2          First-person view of scene
+  3          Appa-view of scene
+  b          Displays the light source in each scene
+  x          Toggle axes
+  arrows     When in mode '1', the arrows will adjust the viewing angle of the scene. When in mode '2', the 
+             front and back arrows will move the player, and the left and right arrows will turn the player's view
+  0          Reset view angle
+  ESC        Exit
+
+
+Things to pay attention to:
+-> cliff function that has many parameters to specify shape and size
+-> frustum function that has many parameters to specify shape and size
+-> normal calculations for cliff and frustum function for lighting
+-> custom-made textures
+-> complexity of scene content
+-> accuracy to the images in the 'Images' folder
+-> 3D scanned image of Appa with custom-made texture
+-> first-person viewing and control that can be further adapted to make the scenes feel more life-like
+
